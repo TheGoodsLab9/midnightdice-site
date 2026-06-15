@@ -111,14 +111,10 @@ footer a:hover{color:var(--gold2)}
 .page h1{font-size:clamp(40px, 6vw, 70px);margin-bottom:24px}
 .page h2{font-size:30px;margin-top:34px}
 .email{color:var(--gold2);text-decoration:underline;text-underline-offset:4px}
-@media (max-width: 900px) {
-  .screens {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+@media (max-width: 860px){
+  .nav{align-items:flex-start;gap:18px}.nav nav{flex-wrap:wrap;justify-content:flex-end}
+  .hero,.split{grid-template-columns:1fr;min-height:auto}.hero{margin-top:40px}.hero-copy{text-align:left}.phone-wrap{order:-1}.cards{grid-template-columns:1fr 1fr}.screens img{height:460px}
 
-@media (max-width: 520px) {
-  .screens {
-    grid-template-columns: 1fr;
-  }
-}
+@media (max-width: 560px){
+  .nav{display:block}.nav nav{margin-top:16px;justify-content:flex-start;gap:14px}
+  .cards{grid-template-columns:1fr}.screens img{height:420px}footer{flex-direction:column}.button{width:100%;text-align:center}
