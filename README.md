@@ -5,15 +5,6 @@
 2. Replace the placeholder App Store button link in `index.html` once your App Store URL is available.
 3. Optional: change “Coming soon to the App Store” after launch.
 
-## Cloudflare Pages setup
-1. Upload this folder to a new GitHub repository.
-2. In Cloudflare, go to Workers & Pages > Create application > Pages.
-3. Connect your GitHub repo.
-4. Framework preset: None.
-5. Build command: leave blank.
-6. Output directory: `/`.
-7. Deploy.
-
 ## App Store URLs
 - Marketing URL: your homepage URL
 - Support URL: `/support.html`
